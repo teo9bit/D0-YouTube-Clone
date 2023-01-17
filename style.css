@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main {
+    width: 100%;
+}
+
+#content {
+    height: 100%;
+}
+
+.sidebar-icon {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sidebar-icon p {
+    margin: 0;
+}
+
+.sidebar-icon ion-icon {
+    font-size: 1.5em;
+}
+
+#topbar {
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#yt-logo {
+    height: 50%;
+}
+
+#search-wrapper {
+    display: flex;
+    height: 50%;
+    align-items: center;
+}
+
+#search-button {
+    padding: 0 0.5em;
+    font-size: 1.3em;
+    display: flex;
+    align-items: center;
+}
+
+input {
+    padding: 0.18em;
+}
+
+#mic-icon {
+    padding-top: 4px;
+    margin: 0 0.5em;
+    cursor: pointer;
+
+}
+
+#mic-icon ion-icon {
+    font-size: 1.3em;
+    justify-content: center;
+}
+
+#topbar-icons {
+    display: flex;
+    cursor: pointer;
+}
+
+.topbar-icon ion-icon {
+    font-size: 2em;
+    padding: 0 0.3em;
+}
+
+#content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#box {
+    margin: 2px;
+    padding: 5px;
+    height: 200px;
+    width: 355.55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+#epic-logo {
+    display: flex;
+    height: 15%;
+}
